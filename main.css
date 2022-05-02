@@ -1,0 +1,503 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#header {
+    color: #fffcf2;
+}
+
+.header-nav {
+    display: flex;
+    background-color: #252422;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.header-nav-logo {
+    color: #fffcf2;
+    margin-left: 50px;
+    margin-top: 2px;
+    font-size: 22px;
+}
+
+.header-nav span {
+    color: #eb5e28;
+    font-weight: bolder;
+}
+
+.header-nav a {
+    padding-top: 12px;
+    color: #fffcf2;
+}
+
+.header-nav ul {
+    list-style-type: none;  
+} 
+
+.header-nav ul li {
+    display: inline-block;
+    margin-top: 6px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+.home-header {
+    background-image: linear-gradient(to right,#eb5f2875,#25242291), url(img/man-lifting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+}
+
+.home-header-title {
+    padding: 175px 0px 100px 0px;
+    font-size: 20px;
+}
+
+.home-header-subtitle a {
+    color: #fffcf2;
+    border: solid 2px #eb5e28;
+    background-color: #eb5e28;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #252422;
+    padding: 100px 0px;
+    color: #fffcf2;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-title {
+    text-align: center;
+    margin: 30px 0px 60px 0px;
+    font-size: 30px;
+}
+
+.about-us-subtitle {
+    text-align: center;
+    margin: 0px 100px 0px 0px;
+}
+
+.about-us-subtitle span {
+    font-weight: bolder;
+}
+
+#about-us img {
+    width: 500px;
+    height: 300px;
+    margin: 0px 50px 0px 100px;
+    border: solid #eb5f28 5px;
+}
+
+#memberships {
+    display: flex;
+    background-color: #403d39;
+    padding: 60px 0px 50px 0px;
+    justify-content: space-around;
+    color: #fffcf2;
+}
+
+#memberships h4, li {
+    padding: 10px 0px;
+}
+
+.memberships-title {
+    width: 250px;
+}
+
+.memberships-title h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.memberships-title p{
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.memberships-basic ul {
+    list-style-type: square;
+}
+
+.memberships-basic a {
+    border: solid #eb5e28;
+    border-bottom-right-radius: 12px;
+    margin-top: 35px;
+    font-size: 20px;
+    background: #eb5e28;
+    font-weight: bolder;
+    color: #fffcf2;
+}
+
+.memberships-full ul {
+    list-style-type: disc;
+}
+
+.memberships-full a {
+    border: solid #eb5e28;
+    border-bottom-right-radius: 12px;
+    font-size: 20px;
+    background: #eb5e28;
+    font-weight: bolder;
+    color: #fffcf2;
+}
+
+#features {
+    background-color: #252422;
+    color: #fffcf2;
+    padding: 40px 0px 80px 0px;
+}
+
+.features-title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.features-images {
+    display: flex;
+    justify-content: center;
+}
+
+.features-images img {
+    width: 320px;
+    height: 220px;
+    margin: 0px 10px;
+    transition: 300ms;
+}
+
+.features-images img:hover {
+    transform: scale(1.07)
+}
+
+#contact {
+    display: flex;
+    background-color: #fffcf2;
+    padding: 100px 0px;
+    justify-content: center;
+    position: sticky;
+    top: 100%;
+}
+
+.contact-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-socials ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.contact-socials ul li a {
+    display: block;
+    background: #252422;
+    color: #fffcf2;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.contact-socials ul li .instagram:hover {
+    background: #eb5e28;
+}
+
+.contact-socials ul li .facebook:hover {
+    background: #eb5e28;
+}
+
+.contact-socials ul li .whatsapp:hover {
+    background: #eb5e28;
+}
+
+.contact-socials ul li .mail:hover {
+    background: #eb5e28;
+}
+
+.contact-socials ul li .phone:hover {
+    background: #eb5e28;
+}
+
+#join {
+    background-color: #252422;
+    color: #fffcf2;
+    height: 650px;
+}
+
+.join-complete-form p {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.join-complete-form input, select {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.join-title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.join-create-account {
+    display: flex;
+    justify-content: center;
+}
+
+.join-mail-password {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-personal-data {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: baseline;
+}
+
+.join-name-lastname {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-identitynumber-gender {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-membership-selection {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-membership-options {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-payment-method {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-payment-method-options {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-send-info {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.join-send-info input {
+    padding: 2px;
+}
+
+#our-gyms {
+    background-color: #252422;
+    color: #fffcf2;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.our-gyms-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.our-gyms-branchs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.our-gyms-branchs h4 {
+    color: #eb5e28;
+}
+
+.our-gyms-branchs-belgrano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.our-gyms-branchs-boedo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.our-gyms-branchs-caballito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.our-gyms-branchs-palermo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.our-gyms-branchs-recoleta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.our-gyms-branchs-vicentelopez {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.our-gyms-adress {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: baseline;
+}
+
+.our-gyms-adress i {
+    margin-right: 5px;
+}
+
+.our-gyms-times {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.our-gyms-times i{
+    font-size: larger;
+}
+
+.our-gyms-phone {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: baseline;
+}
+
+.our-gyms-phone i {
+    margin-right: 5px;
+}
+
+#classes {
+    background-color: #252422;
+    color: #fffcf2;
+    padding-bottom: 50px;
+}
+
+.classes-title {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px;
+}
+
+.classes-complete-table {
+    display: flex;
+    justify-content: center;
+}
+
+.classes-complete-table th {
+    background-color: #eb5e28;
+    text-align: center;
+    height: 35px;
+    width: 175px;
+}
+
+.classes-complete-table tr {
+    text-align: center;
+}
+
+.classes-complete-table td p {
+    padding: 10px;
+    border-bottom: solid #eb5e28 1px;
+    border-right: solid #eb5e28 1px;
+    border-left: solid #eb5e28 1px;
+}
+
+#faq {
+    background-color: #252422;
+    color: #fffcf2;
+}
+
+.faq-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.faq-complete-questions {
+    height: 500px;
+}
+
+.faq-questions {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    border-bottom: solid #eb5f28 0.5px;
+    border-left: solid #eb5f28 0.5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
