@@ -14,39 +14,24 @@ body {
     color: #fffcf2;
 }
 
-.header-nav {
-    display: flex;
-    background-color: #252422;
-    justify-content: space-between;
-    height: 50px;
-}
-
-.header-nav-logo {
-    color: #fffcf2;
-    margin-left: 50px;
-    margin-top: 2px;
-    font-size: 22px;
-}
-
-.header-nav span {
+.navbar-brand span {
     color: #eb5e28;
     font-weight: bolder;
 }
 
-.header-nav a {
-    padding-top: 12px;
-    color: #fffcf2;
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    padding-right: 300px;
 }
 
-.header-nav ul {
-    list-style-type: none;  
-} 
+.carousel-item img {
+    width: 320px;
+    height: 220px;
+}
 
-.header-nav ul li {
-    display: inline-block;
-    margin-top: 6px;
-    margin-right: 15px;
-    margin-bottom: 8px;
+.nav-item a:hover {
+    color: #eb5e28 !important;
 }
 
 .home-header {
@@ -104,6 +89,13 @@ body {
     height: 300px;
     margin: 0px 50px 0px 100px;
     border: solid #eb5f28 5px;
+}
+
+.col a {
+    border: solid 2px #eb5e28;
+    padding: 10px;
+    color: white;
+    background-color: #eb5e28;
 }
 
 #memberships {
@@ -243,93 +235,17 @@ body {
 }
 
 #join {
-    background-color: #252422;
+    background-color: black;
     color: #fffcf2;
     height: 650px;
 }
 
-.join-complete-form p {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    font-weight: bolder;
-}
-
-.join-complete-form input, select {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15px;
-    font-weight: bolder;
-}
-
 .join-title {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+    text-align: center;
 }
 
-.join-create-account {
-    display: flex;
-    justify-content: center;
-}
-
-.join-mail-password {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-personal-data {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    align-items: baseline;
-}
-
-.join-name-lastname {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-identitynumber-gender {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-membership-selection {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-membership-options {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-payment-method {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-payment-method-options {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-send-info {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.join-send-info input {
-    padding: 2px;
+.container-join {
+    padding-top: 50px;
 }
 
 #our-gyms {
@@ -478,26 +394,22 @@ body {
 }
 
 #faq {
-    background-color: #252422;
+    background-color: black;
     color: #fffcf2;
 }
 
 .faq-title {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    text-align: center;
 }
 
-.faq-complete-questions {
-    height: 500px;
+.accordion-item {
+    background-color: black;
 }
 
-.faq-questions {
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-    border-bottom: solid #eb5f28 0.5px;
-    border-left: solid #eb5f28 0.5px;
-    padding-left: 15px;
-    padding-bottom: 5px;
+.accordion-item p {
+    color: white;
+}
+
+.accordion-button {
+    background-color: black;
 }
